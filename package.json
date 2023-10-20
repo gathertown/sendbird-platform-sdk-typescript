@@ -1,6 +1,6 @@
 {
   "name": "@gathertown/sendbird-platform-sdk-typescript",
-  "version": "0.0.16",
+  "version": "0.0.17-0",
   "description": "OpenAPI client for sendbird-platform-sdk-typescript",
   "author": "OpenAPI-Generator Contributors",
   "repository": {
@@ -20,7 +20,10 @@
     ".": "./dist/index.js"
   },
   "typings": "./dist/index.d.ts",
-  "files": ["README.md", "dist/"],
+  "files": [
+    "README.md",
+    "dist/"
+  ],
   "publishConfig": {
     "access": "public"
   },
