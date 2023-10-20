@@ -6,6 +6,14 @@
 This is a Node.js package written in Typescript  that makes talking to the [Sendbird Platform API](https://sendbird.com/docs/chat/v3/platform-api/getting-started/prepare-to-use-api) easier.
 With this library you can extend your Sendbird integration to include advanced features like message-, and channel automation, user management, create user authentication tokens, and create bots.
 
+# Differences from upstream Repo
+- Fixed TS errors, and remove node_modules committed in the repo.
+- Upgraded to TS v5 and support only versions above Node v18
+- Publish the dist/ directory for use instead of directly using the source file which caused TS errors in consuming applications.
+- Run `build` automatically when running `npm run publish`
+
+To publish, make sure you update the version using the appropriate `npm version` command and then run `npm publish`.
+
 # 🔥 Quick start
 
 ```javascript  
